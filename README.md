@@ -17,4 +17,4 @@ pushall [path_to_folder_where_the_repo_folders_are]
 ~~~~
 
 ## Dependency
-[push](https://raw.githubusercontent.com/kkristof200/push/master/push)
+[push](https://raw.githubusercontent.com/kkristof200/push)
