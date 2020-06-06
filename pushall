@@ -11,7 +11,7 @@ for d in */ ; do
     cd $MAIN_GITHUB_FOLDER_PATH/$d
     res=$(git status)
 
-    if [[ $res != *"branch is up to date"* ]]; then
+    if [[ $res != *"nothing to commit"* ]]; then
         echo -e "\n\n----------------------------------------------------------------\n"
         echo -e "Proj: "$d
         echo -e "Path: "$(pwd)"\n"
